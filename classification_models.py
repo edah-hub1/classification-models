@@ -20,3 +20,10 @@ X.isnull().sum()
 sns.countplot(x=y)
 plt.title("Target Class Distribution")
 plt.show()
+
+# Correlation heatmap
+plt.figure(figsize=(12, 8))
+sns.heatmap(X.corr(), annot=True, cmap='coolwarm')
+plt.title("Feature Correlation Matrix")
+plt.show()
+

@@ -1,4 +1,4 @@
-# # Wine Dataset Classification
+# Wine Dataset Classification
 
 ##  Introduction
 This project explores the **Wine Dataset** from `sklearn.datasets`, using **six supervised machine learning classification models**:

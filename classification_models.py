@@ -12,3 +12,11 @@ y = pd.Series(wine.target, name='target')
 
 # Quick look at the data
 X.head()
+
+# Check for null values
+X.isnull().sum()
+
+# Class distribution
+sns.countplot(x=y)
+plt.title("Target Class Distribution")
+plt.show()
